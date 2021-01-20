@@ -1,0 +1,18 @@
+{
+   "compilerOptions": {
+
+      "experimentalDecorators": true,
+      "lib": [
+         "ES2017"
+      ],
+      "target": "ES2017",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "outDir": "./dist/basic_express_app_release",
+      "rootDir": "./src",
+      "emitDecoratorMetadata": true,
+      "sourceMap": false,
+      "esModuleInterop": true,
+      "noEmit": false
+   }
+}

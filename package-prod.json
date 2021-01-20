@@ -1,0 +1,19 @@
+{
+   "name": "basic_express_app",
+   "version": "0.0.1",
+   "description": "Personal Wallet",
+   "main": "./dist/startapp.js",
+   "scripts": {
+      "start": "pm2 start ./basic_express_app.js --name basic_express_app_release --log ./logs/basic_express_app_process.log",
+      "stop": "pm2 stop  basic_express_app_release",
+      "remove": "pm2 delete  basic_express_app_release",
+      "reload": "pm2 reload  basic_express_app_release",
+      "dev": "echo not supported && exit 1",
+      "debug": "echo not supported && exit 1",
+      "test": "echo not supported && exit 1",
+      "build": "echo not supported && exit 1" ,
+      "build:prod": "echo not supported && exit 1"
+   },
+   "author": "Luciano Grippa",
+   "license": "ISC"
+}
